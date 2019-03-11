@@ -1,2 +1,2 @@
-# hello-world
-学习用库
+# snakey
+贪吃蛇小游戏练手
