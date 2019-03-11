@@ -11,7 +11,6 @@ BOARDHEIGHT = 28
 score = 0
 
 
-# 更多精彩关注微信公众号：python高效编程
 # 食物
 class Food(object):
     def __init__(self):
@@ -216,7 +215,7 @@ def game(screen):
         # 游戏主进程
         if not is_fail:
             enlarge = snack.eat_food(food)
-            text = u"score: {}  更多精彩关注微信公众号：python高效编程".format(score)
+            text = u"score: {} ".format(score)
             print_text(screen, font, 0, 0, text)
             food.update(screen, enlarge, snack)
             snack.move(enlarge)
